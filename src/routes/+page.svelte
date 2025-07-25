@@ -3,9 +3,10 @@
   import { invoke } from "@tauri-apps/api/core";
   import katex from "katex";
   import hljs from "highlight.js";
+
   import "./app.scss";
   import defaultMd from "./example.md?raw";
-  
+
   let html = "";
 
   onMount(async () => {

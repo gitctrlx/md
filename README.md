@@ -1,7 +1,41 @@
-# Tauri + SvelteKit + TypeScript
+<div align="center">
+<img height=150 src="src-tauri/icons/icon.png" />
+</div>
 
-This template should help get you started developing with Tauri, SvelteKit and TypeScript in Vite.
+<p align="center"><span><b>MD</b> - A markdown viewer</span></p>
 
-## Recommended IDE Setup
+<div align="center">
+## Screenshot
+![](./screenshot.png)
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+## Installation
+
+Download the installer for your operating system [on the release page](https://github.com/gitctrlx/md/releases).
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/gitctrlx/md.git
+```
+
+Go to the project directory
+
+```bash
+  cd md
+```
+
+Install dependencies
+
+```bash
+  deno install
+```
+
+Note : Follow [Tauri guide](https://v2.tauri.app/zh-cn/start/prerequisites/) to set up Tauri environment
+
+Start the server
+
+```bash
+  deno task dev
+```
