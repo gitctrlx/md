@@ -4,9 +4,9 @@
 
 <p align="center"><span><b>MD</b> - A markdown viewer</span></p>
 
-<div align="center">
 ## Screenshot
-![](./screenshot.png)
+
+![dark](./static/screenshot.png)
 
 ## Installation
 
@@ -14,28 +14,27 @@ Download the installer for your operating system [on the release page](https://g
 
 ## Run Locally
 
-Clone the project
-
-```bash
-  git clone https://github.com/gitctrlx/md.git
-```
-
-Go to the project directory
-
-```bash
-  cd md
-```
-
 Install dependencies
 
 ```bash
-  deno install
+deno install
 ```
 
-Note : Follow [Tauri guide](https://v2.tauri.app/zh-cn/start/prerequisites/) to set up Tauri environment
+> Note : Follow [Tauri guide](https://v2.tauri.app/zh-cn/start/prerequisites/) to set up Tauri environment
+>
 
-Start the server
+For Desktop
 
 ```bash
-  deno task dev
+deno task tauri dev
 ```
+
+For Android
+
+```bash
+deno task tauri android dev
+```
+
+## License
+
+MIT
